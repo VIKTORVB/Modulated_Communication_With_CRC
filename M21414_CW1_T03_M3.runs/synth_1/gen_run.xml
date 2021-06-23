@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1611237683">
+  <File Type="PA-TCL" Name="T03_M3_Top_Level.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="T03_M3_Top_Level_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="T03_M3_Top_Level_reports.tcl"/>
+  <File Type="RDS-RDS" Name="T03_M3_Top_Level.vds"/>
+  <File Type="RDS-UTIL" Name="T03_M3_Top_Level_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="T03_M3_Top_Level_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="T03_M3_Top_Level.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="T03_M3_Top_Level_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="T03_M3_Top_Level_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/M3 - resources/T03_M3_ClockEnable.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Uni/Third year/VHDL/vivado/M3 - resources/T03_M3_ClockEnable.vhd"/>
+        <Attr Name="ImportTime" Val="1605969018"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/T03_M3_Modulator_B.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Uni/Third year/VHDL/vivado/M21414_CW1_T03_M3/M21414_CW1_T03_M3.srcs/sources_1/new/T03_M3_Modulator_B.vhd"/>
+        <Attr Name="ImportTime" Val="1611215861"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/M3 - resources/T03_M3_MUX.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Uni/Third year/VHDL/vivado/M3 - resources/T03_M3_MUX.vhd"/>
+        <Attr Name="ImportTime" Val="1607507801"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/M3 - resources/T03_M3_SelectCounter.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Uni/Third year/VHDL/vivado/M3 - resources/T03_M3_SelectCounter.vhd"/>
+        <Attr Name="ImportTime" Val="1606404982"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/M3 - resources/T03_M3_Debounce.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Uni/Third year/VHDL/vivado/M3 - resources/T03_M3_Debounce.vhd"/>
+        <Attr Name="ImportTime" Val="1607369525"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/M3 - resources/T03_M3_Random_num.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Uni/Third year/VHDL/vivado/M3 - resources/T03_M3_Random_num.vhd"/>
+        <Attr Name="ImportTime" Val="1607365593"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/M3 - resources/T03_M3_StudentNum.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Uni/Third year/VHDL/vivado/M3 - resources/T03_M3_StudentNum.vhd"/>
+        <Attr Name="ImportTime" Val="1607451319"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/M3 - resources/T03_M3_DataGen.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Uni/Third year/VHDL/vivado/M3 - resources/T03_M3_DataGen.vhd"/>
+        <Attr Name="ImportTime" Val="1607508950"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/M3 - resources/T03_M3_DisplayDriver.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Uni/Third year/VHDL/vivado/M3 - resources/T03_M3_DisplayDriver.vhd"/>
+        <Attr Name="ImportTime" Val="1607534345"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/M3 - resources/T03_M3_StartStop.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Uni/Third year/VHDL/vivado/M3 - resources/T03_M3_StartStop.vhd"/>
+        <Attr Name="ImportTime" Val="1607363426"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/M3 - resources/T03_M3_Counter_0_F.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Uni/Third year/VHDL/vivado/M3 - resources/T03_M3_Counter_0_F.vhd"/>
+        <Attr Name="ImportTime" Val="1607364987"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/M3 - resources/T03_M3_SymbolConverter.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Uni/Third year/VHDL/vivado/M3 - resources/T03_M3_SymbolConverter.vhd"/>
+        <Attr Name="ImportTime" Val="1607449551"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/T03_M3_Noise_Channel_B.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Uni/Third year/VHDL/vivado/M21414_CW1_T03_M3/M21414_CW1_T03_M3.srcs/sources_1/new/T03_M3_Noise_Channel_B.vhd"/>
+        <Attr Name="ImportTime" Val="1610984920"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/T03_M3_Error_Select_B.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Uni/Third year/VHDL/vivado/M21414_CW1_T03_M3/M21414_CW1_T03_M3.srcs/sources_1/new/T03_M3_Error_Select_B.vhd"/>
+        <Attr Name="ImportTime" Val="1611215885"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/T03_M3_Multiply_Acc_B.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Uni/Third year/VHDL/vivado/M21414_CW1_T03_M3/M21414_CW1_T03_M3.srcs/sources_1/new/T03_M3_Multiply_Acc_B.vhd"/>
+        <Attr Name="ImportTime" Val="1611215992"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/T03_M3_Demodulator_B.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Uni/Third year/VHDL/vivado/M21414_CW1_T03_M3/M21414_CW1_T03_M3.srcs/sources_1/new/T03_M3_Demodulator_B.vhd"/>
+        <Attr Name="ImportTime" Val="1611216046"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/T03_M3_Top_Level.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Uni/Third year/VHDL/vivado/M21414_CW1_T03_M3/M21414_CW1_T03_M3.srcs/sources_1/new/T03_M3_Top_Level.vhd"/>
+        <Attr Name="ImportTime" Val="1611215305"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/T03_M3_CRC_Gen.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Uni/Third year/VHDL/vivado/M21414_CW1_T03_M3/M21414_CW1_T03_M3.srcs/sources_1/new/T03_M3_CRC_Gen.vhd"/>
+        <Attr Name="ImportTime" Val="1611213728"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/T03_M3_CRC_Check.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Uni/Third year/VHDL/vivado/M21414_CW1_T03_M3/M21414_CW1_T03_M3.srcs/sources_1/new/T03_M3_CRC_Check.vhd"/>
+        <Attr Name="ImportTime" Val="1611215299"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/T03_M3_Noise_Channel_A.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Uni/Third year/VHDL/vivado/M3 - resources/M3_viktor/M21414_CW1_T03_M3.srcs/sources_1/new/T03_M3_Noise_Channel_A.vhd"/>
+        <Attr Name="ImportTime" Val="1611109136"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/T03_M3_Multiply_Accumulate_A.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Uni/Third year/VHDL/vivado/M3 - resources/M3_viktor/M21414_CW1_T03_M3.srcs/sources_1/new/T03_M3_Multiply_Accumulate_A.vhd"/>
+        <Attr Name="ImportTime" Val="1611092256"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/T03_M3_Modulator_A.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Uni/Third year/VHDL/vivado/M3 - resources/M3_viktor/M21414_CW1_T03_M3.srcs/sources_1/new/T03_M3_Modulator_A.vhd"/>
+        <Attr Name="ImportTime" Val="1611094674"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/T03_M3_Reconstruct_A.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Uni/Third year/VHDL/vivado/M3 - resources/M3_viktor/M21414_CW1_T03_M3.srcs/sources_1/new/T03_M3_Reconstruct_A.vhd"/>
+        <Attr Name="ImportTime" Val="1611158560"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/T03_M3_Demodulator_A.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Uni/Third year/VHDL/vivado/M3 - resources/M3_viktor/M21414_CW1_T03_M3.srcs/sources_1/new/T03_M3_Demodulator_A.vhd"/>
+        <Attr Name="ImportTime" Val="1611171133"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/T03_M3_Reciver_A.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Uni/Third year/VHDL/vivado/M3 - resources/M3_viktor/M21414_CW1_T03_M3.srcs/sources_1/new/T03_M3_Reciver_A.vhd"/>
+        <Attr Name="ImportTime" Val="1611097232"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/T03_M3_Send_A.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Uni/Third year/VHDL/vivado/M3 - resources/M3_viktor/M21414_CW1_T03_M3.srcs/sources_1/new/T03_M3_Send_A.vhd"/>
+        <Attr Name="ImportTime" Val="1611144202"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/archive_project_summary.txt"/>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="T03_M3_Top_Level"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/T03_M3_constraints.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Uni/Third year/VHDL/vivado/M21414_CW1_T03_M3/M21414_CW1_T03_M3.srcs/constrs_1/new/T03_M3_constraints.xdc"/>
+        <Attr Name="ImportTime" Val="1610966050"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="clk_wiz_0"/>
+</GenRun>

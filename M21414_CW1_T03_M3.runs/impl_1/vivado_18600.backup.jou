@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Wed Jan 20 12:25:44 2021
+# Process ID: 18600
+# Current directory: C:/Users/Victorious/Desktop/m3/M21414_CW1_T03_M3/M21414_CW1_T03_M3.runs/impl_1
+# Command line: vivado.exe -log T03_M3_Top_Level.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source T03_M3_Top_Level.tcl -notrace
+# Log file: C:/Users/Victorious/Desktop/m3/M21414_CW1_T03_M3/M21414_CW1_T03_M3.runs/impl_1/T03_M3_Top_Level.vdi
+# Journal file: C:/Users/Victorious/Desktop/m3/M21414_CW1_T03_M3/M21414_CW1_T03_M3.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source T03_M3_Top_Level.tcl -notrace

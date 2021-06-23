@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Wed Jun 23 16:20:35 2021
+# Process ID: 11480
+# Current directory: C:/Users/Victorious/Desktop/VHDL/M21414_CW1_T03_M3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19448 C:\Users\Victorious\Desktop\VHDL\M21414_CW1_T03_M3\M21414_CW1_T03_M3.xpr
+# Log file: C:/Users/Victorious/Desktop/VHDL/M21414_CW1_T03_M3/vivado.log
+# Journal file: C:/Users/Victorious/Desktop/VHDL/M21414_CW1_T03_M3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Victorious/Desktop/VHDL/M21414_CW1_T03_M3/M21414_CW1_T03_M3.xpr
